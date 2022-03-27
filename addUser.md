@@ -46,7 +46,7 @@ Is the information correct? [Y/n] y
 [公開鍵暗号化方式の設定の手順はこちら](authPubKey.md)
 ### sudo権限を付与する
 ```
-$ sudo membermod -aG sudo ユーザー名
+$ sudo usermod -aG sudo ユーザー名
 ```
 ### memberグループから除外する。
 ```
